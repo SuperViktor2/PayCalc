@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4562A0F22A78601B00B534A9 /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4562A0F12A78601B00B534A9 /* NumberFormatter.swift */; };
+		4584223D2A730BA2007EABE4 /* PayCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4584223C2A730BA2007EABE4 /* PayCalcApp.swift */; };
+		4584223F2A730BA2007EABE4 /* AllJobsVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4584223E2A730BA2007EABE4 /* AllJobsVeiw.swift */; };
+		458422412A730BA8007EABE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 458422402A730BA8007EABE4 /* Assets.xcassets */; };
+		458422442A730BA8007EABE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 458422432A730BA8007EABE4 /* Preview Assets.xcassets */; };
+		458422462A730BA8007EABE4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458422452A730BA8007EABE4 /* Persistence.swift */; };
+		458422492A730BA8007EABE4 /* PayCalc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 458422472A730BA8007EABE4 /* PayCalc.xcdatamodeld */; };
+		458422522A73151A007EABE4 /* AddJobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458422512A73151A007EABE4 /* AddJobView.swift */; };
+		458422542A7319EB007EABE4 /* AddJobViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458422532A7319EB007EABE4 /* AddJobViewModel.swift */; };
+		458422612A73251D007EABE4 /* JobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458422602A73251D007EABE4 /* JobCell.swift */; };
+		458422662A732C64007EABE4 /* destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458422652A732C64007EABE4 /* destination.swift */; };
+		458422682A7330DC007EABE4 /* ShiftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458422672A7330DC007EABE4 /* ShiftCell.swift */; };
+		45D97AEF2A73E746008BFBD3 /* ShiftViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D97AEE2A73E746008BFBD3 /* ShiftViewModel.swift */; };
+		45D97AF12A73EA72008BFBD3 /* ShiftObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D97AF02A73EA72008BFBD3 /* ShiftObject.swift */; };
+		45D97B052A741990008BFBD3 /* Date + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D97B042A741990008BFBD3 /* Date + extension.swift */; };
+		45D97B0A2A753A52008BFBD3 /* Shift+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D97B062A753A52008BFBD3 /* Shift+CoreDataClass.swift */; };
+		45D97B0B2A753A52008BFBD3 /* Shift+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D97B072A753A52008BFBD3 /* Shift+CoreDataProperties.swift */; };
+		45D97B0C2A753A52008BFBD3 /* Job+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D97B082A753A52008BFBD3 /* Job+CoreDataClass.swift */; };
+		45D97B0D2A753A52008BFBD3 /* Job+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D97B092A753A52008BFBD3 /* Job+CoreDataProperties.swift */; };
+		45D97B0F2A75E06C008BFBD3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D97B0E2A75E06C008BFBD3 /* Launch Screen.storyboard */; };
+		45EFC7AE2AFE382900F71E4A /* ShiftsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFC7AD2AFE382900F71E4A /* ShiftsView.swift */; };
+		45EFC7B02AFE3DCA00F71E4A /* AddShiftViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFC7AF2AFE3DCA00F71E4A /* AddShiftViewModel.swift */; };
+		45EFC7B22AFE3F7400F71E4A /* Što_fali in Resources */ = {isa = PBXBuildFile; fileRef = 45EFC7B12AFE3F7400F71E4A /* Što_fali */; };
+		45F924722B23A0CB0042A8B4 /* AddShiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F924712B23A0CB0042A8B4 /* AddShiftView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4562A0F12A78601B00B534A9 /* NumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatter.swift; sourceTree = "<group>"; };
+		458422392A730BA2007EABE4 /* PayCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4584223C2A730BA2007EABE4 /* PayCalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCalcApp.swift; sourceTree = "<group>"; };
+		4584223E2A730BA2007EABE4 /* AllJobsVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllJobsVeiw.swift; sourceTree = "<group>"; };
+		458422402A730BA8007EABE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		458422432A730BA8007EABE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		458422452A730BA8007EABE4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		458422482A730BA8007EABE4 /* PayCalc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PayCalc.xcdatamodel; sourceTree = "<group>"; };
+		458422512A73151A007EABE4 /* AddJobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJobView.swift; sourceTree = "<group>"; };
+		458422532A7319EB007EABE4 /* AddJobViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJobViewModel.swift; sourceTree = "<group>"; };
+		458422602A73251D007EABE4 /* JobCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCell.swift; sourceTree = "<group>"; };
+		458422652A732C64007EABE4 /* destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = destination.swift; sourceTree = "<group>"; };
+		458422672A7330DC007EABE4 /* ShiftCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftCell.swift; sourceTree = "<group>"; };
+		45D97AEE2A73E746008BFBD3 /* ShiftViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftViewModel.swift; sourceTree = "<group>"; };
+		45D97AF02A73EA72008BFBD3 /* ShiftObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftObject.swift; sourceTree = "<group>"; };
+		45D97B042A741990008BFBD3 /* Date + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + extension.swift"; sourceTree = "<group>"; };
+		45D97B062A753A52008BFBD3 /* Shift+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shift+CoreDataClass.swift"; sourceTree = "<group>"; };
+		45D97B072A753A52008BFBD3 /* Shift+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shift+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		45D97B082A753A52008BFBD3 /* Job+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Job+CoreDataClass.swift"; sourceTree = "<group>"; };
+		45D97B092A753A52008BFBD3 /* Job+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Job+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		45D97B0E2A75E06C008BFBD3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		45EFC7AD2AFE382900F71E4A /* ShiftsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftsView.swift; sourceTree = "<group>"; };
+		45EFC7AF2AFE3DCA00F71E4A /* AddShiftViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShiftViewModel.swift; sourceTree = "<group>"; };
+		45EFC7B12AFE3F7400F71E4A /* Što_fali */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Što_fali"; sourceTree = "<group>"; };
+		45F924712B23A0CB0042A8B4 /* AddShiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShiftView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		458422362A730BA2007EABE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		458422302A730BA2007EABE4 = {
+			isa = PBXGroup;
+			children = (
+				4584223B2A730BA2007EABE4 /* PayCalc */,
+				4584223A2A730BA2007EABE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4584223A2A730BA2007EABE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				458422392A730BA2007EABE4 /* PayCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4584223B2A730BA2007EABE4 /* PayCalc */ = {
+			isa = PBXGroup;
+			children = (
+				4562A0F12A78601B00B534A9 /* NumberFormatter.swift */,
+				4584223C2A730BA2007EABE4 /* PayCalcApp.swift */,
+				458422652A732C64007EABE4 /* destination.swift */,
+				45D97B042A741990008BFBD3 /* Date + extension.swift */,
+				458422402A730BA8007EABE4 /* Assets.xcassets */,
+				45D97B0E2A75E06C008BFBD3 /* Launch Screen.storyboard */,
+				4584225F2A731F74007EABE4 /* Model */,
+				458422502A730F91007EABE4 /* View */,
+				458422552A7319F1007EABE4 /* ViewModel */,
+				4584224F2A730D20007EABE4 /* CoreData */,
+				458422422A730BA8007EABE4 /* Preview Content */,
+				45EFC7B12AFE3F7400F71E4A /* Što_fali */,
+			);
+			path = PayCalc;
+			sourceTree = "<group>";
+		};
+		458422422A730BA8007EABE4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				458422432A730BA8007EABE4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4584224F2A730D20007EABE4 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				458422452A730BA8007EABE4 /* Persistence.swift */,
+				458422472A730BA8007EABE4 /* PayCalc.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		458422502A730F91007EABE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45EFC7AD2AFE382900F71E4A /* ShiftsView.swift */,
+				4584223E2A730BA2007EABE4 /* AllJobsVeiw.swift */,
+				458422512A73151A007EABE4 /* AddJobView.swift */,
+				45F924712B23A0CB0042A8B4 /* AddShiftView.swift */,
+				458422622A7329AC007EABE4 /* Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		458422552A7319F1007EABE4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				458422532A7319EB007EABE4 /* AddJobViewModel.swift */,
+				45D97AEE2A73E746008BFBD3 /* ShiftViewModel.swift */,
+				45EFC7AF2AFE3DCA00F71E4A /* AddShiftViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4584225F2A731F74007EABE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45D97B062A753A52008BFBD3 /* Shift+CoreDataClass.swift */,
+				45D97B072A753A52008BFBD3 /* Shift+CoreDataProperties.swift */,
+				45D97B082A753A52008BFBD3 /* Job+CoreDataClass.swift */,
+				45D97B092A753A52008BFBD3 /* Job+CoreDataProperties.swift */,
+				45D97AF02A73EA72008BFBD3 /* ShiftObject.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		458422622A7329AC007EABE4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				458422602A73251D007EABE4 /* JobCell.swift */,
+				458422672A7330DC007EABE4 /* ShiftCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		458422382A730BA2007EABE4 /* PayCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4584224C2A730BA8007EABE4 /* Build configuration list for PBXNativeTarget "PayCalc" */;
+			buildPhases = (
+				458422352A730BA2007EABE4 /* Sources */,
+				458422362A730BA2007EABE4 /* Frameworks */,
+				458422372A730BA2007EABE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayCalc;
+			productName = PayCalc;
+			productReference = 458422392A730BA2007EABE4 /* PayCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		458422312A730BA2007EABE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					458422382A730BA2007EABE4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 458422342A730BA2007EABE4 /* Build configuration list for PBXProject "PayCalc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 458422302A730BA2007EABE4;
+			productRefGroup = 4584223A2A730BA2007EABE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				458422382A730BA2007EABE4 /* PayCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		458422372A730BA2007EABE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D97B0F2A75E06C008BFBD3 /* Launch Screen.storyboard in Resources */,
+				458422442A730BA8007EABE4 /* Preview Assets.xcassets in Resources */,
+				45EFC7B22AFE3F7400F71E4A /* Što_fali in Resources */,
+				458422412A730BA8007EABE4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		458422352A730BA2007EABE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				458422522A73151A007EABE4 /* AddJobView.swift in Sources */,
+				458422682A7330DC007EABE4 /* ShiftCell.swift in Sources */,
+				458422612A73251D007EABE4 /* JobCell.swift in Sources */,
+				45D97B0B2A753A52008BFBD3 /* Shift+CoreDataProperties.swift in Sources */,
+				458422462A730BA8007EABE4 /* Persistence.swift in Sources */,
+				45F924722B23A0CB0042A8B4 /* AddShiftView.swift in Sources */,
+				45D97B0A2A753A52008BFBD3 /* Shift+CoreDataClass.swift in Sources */,
+				45D97B0D2A753A52008BFBD3 /* Job+CoreDataProperties.swift in Sources */,
+				45D97AEF2A73E746008BFBD3 /* ShiftViewModel.swift in Sources */,
+				45D97B0C2A753A52008BFBD3 /* Job+CoreDataClass.swift in Sources */,
+				4562A0F22A78601B00B534A9 /* NumberFormatter.swift in Sources */,
+				458422542A7319EB007EABE4 /* AddJobViewModel.swift in Sources */,
+				458422492A730BA8007EABE4 /* PayCalc.xcdatamodeld in Sources */,
+				4584223F2A730BA2007EABE4 /* AllJobsVeiw.swift in Sources */,
+				458422662A732C64007EABE4 /* destination.swift in Sources */,
+				4584223D2A730BA2007EABE4 /* PayCalcApp.swift in Sources */,
+				45D97B052A741990008BFBD3 /* Date + extension.swift in Sources */,
+				45EFC7AE2AFE382900F71E4A /* ShiftsView.swift in Sources */,
+				45EFC7B02AFE3DCA00F71E4A /* AddShiftViewModel.swift in Sources */,
+				45D97AF12A73EA72008BFBD3 /* ShiftObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4584224A2A730BA8007EABE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4584224B2A730BA8007EABE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4584224D2A730BA8007EABE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PayCalc/Preview Content\"";
+				DEVELOPMENT_TEAM = J98RM459YW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.viktorgoles.PayCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4584224E2A730BA8007EABE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PayCalc/Preview Content\"";
+				DEVELOPMENT_TEAM = J98RM459YW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.viktorgoles.PayCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		458422342A730BA2007EABE4 /* Build configuration list for PBXProject "PayCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4584224A2A730BA8007EABE4 /* Debug */,
+				4584224B2A730BA8007EABE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4584224C2A730BA8007EABE4 /* Build configuration list for PBXNativeTarget "PayCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4584224D2A730BA8007EABE4 /* Debug */,
+				4584224E2A730BA8007EABE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		458422472A730BA8007EABE4 /* PayCalc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				458422482A730BA8007EABE4 /* PayCalc.xcdatamodel */,
+			);
+			currentVersion = 458422482A730BA8007EABE4 /* PayCalc.xcdatamodel */;
+			path = PayCalc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 458422312A730BA2007EABE4 /* Project object */;
+}
