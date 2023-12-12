@@ -23,9 +23,20 @@ struct ShiftsView: View {
     
     @ViewBuilder
     private func progressVeiew() -> some View {
+        VStack{
+            HStack {
+                Text("Earned this month:")
+                Text("\(viewModel.totalMonth, format: .currency(code: "EUR"))")
+                    .foregroundColor(.blue)
+                    .fontWeight(.bold)
+            }
+            
             Text("Earned in total: \(viewModel.totalPay, format: .currency(code: "EUR"))")
-                .font(.subheadline)
-                .foregroundColor(.secondary)
+                            .font(.subheadline)
+                            .foregroundColor(.secondary)
+                            .padding(.top, 5)
+        }
+            
     }
     
     var body: some View {
@@ -62,6 +73,7 @@ struct ShiftsView: View {
             viewModel.SetJobObject(job: job)
             viewModel.separateByMonth()
             viewModel.calculatePay()
+            viewModel.totalInMonth()
         }
     }
 }
