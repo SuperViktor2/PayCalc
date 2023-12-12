@@ -38,9 +38,9 @@ struct AddShiftView: View {
                 .keyboardType(.numberPad)
             
             Picker("Decimal", selection: $viewModel.norDec) {
-                Text("0.25").tag(0.25)
-                Text("0.50").tag(0.50)
-                Text("0.75").tag(0.75)
+                Text("15min").tag(0.25)
+                Text("30min").tag(0.50)
+                Text("45min").tag(0.75)
             }
             .pickerStyle(.segmented)
             
@@ -48,9 +48,9 @@ struct AddShiftView: View {
                 .keyboardType(.numberPad)
             
             Picker("Appearance", selection: $viewModel.nirDec) {
-                Text("0.25").tag(0.25)
-                Text("0.50").tag(0.50)
-                Text("0.75").tag(0.75)
+                Text("15min").tag(0.25)
+                Text("30min").tag(0.50)
+                Text("45min").tag(0.75)
             }
             .pickerStyle(.segmented)
             
@@ -63,13 +63,7 @@ struct AddShiftView: View {
 
             if showDetails {
                 VStack {
-                    Text("Decimal picker: represents minutes")
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                    Text("0.25 = 15 min")
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                    Text("0.50 = 30 min")
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                    Text("0.75 = 45 min")
+                    Text("Enter full number of hours worked in textfields and then add minutes if necessary")
                         .frame(maxWidth: .infinity, alignment: .leading)
                 }
             }
