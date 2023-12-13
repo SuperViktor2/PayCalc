@@ -33,7 +33,7 @@ final class ShiftViewModel: ObservableObject {
         allShifts = job.shiftArray
     }
     
-    func totalInMonth () {
+     func totalInMonth() {
         let dict = Dictionary(grouping: allShifts, by: {$0.date?.intOfMonth})
         
         if(allShifts.isEmpty) {

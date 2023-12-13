@@ -59,7 +59,7 @@ struct AllJobsVeiw: View {
                     addButton()
                 }
             }
-            .padding([.top], 20)
+            .padding([.top])
             .sheet(isPresented: $isAddJobShowing) {
                 AddJobView()
             }
